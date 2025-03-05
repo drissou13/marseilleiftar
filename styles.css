@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transition: background 1s ease-in-out;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+p#fajr-time {
+    color: #1E90FF; /* Bleu pour l'aube */
+}
+
+p#iftar-time {
+    color: #d9534f; /* Rouge pour le soir */
+}
+
+p#countdown {
+    color: #ff9800;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Fond dynamique */
+.morning { background: linear-gradient(to right, #87CEEB, #FFD700); }
+.afternoon { background: linear-gradient(to right, #FFA500, #FF4500); }
+.evening { background: linear-gradient(to right, #4B0082, #000000); }
